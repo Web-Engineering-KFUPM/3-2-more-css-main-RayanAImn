@@ -19,11 +19,10 @@
       existing styles (add new style in the exiting selector).
     } */
 
-    /* .card {
+/* .card {
       duplicate selector created again to add new styles.
     } */
 */
-
 /*
   TODO 0: Link the style sheet using the link tag inside the head tag.
 */
@@ -34,6 +33,14 @@
       2. Define --brand-dark variable and set a darker color value of #1d4ed8 for hover states
   - Apply a global box-sizing reset using the universal selector (hint use * selector).
 */
+:root {
+  --brand: #2563eb;
+  --brand-dark: #1d4ed8;
+}
+
+* {
+  box-sizing: border-box;
+}
 
 /* TODO 2:
    - Give .site-header & .site-footer a subtle background using var(--card)
@@ -83,9 +90,12 @@ body {
 }
 
 :root {
-  --muted: #6b7280;        /* muted text */
-  --bg: #f6f7fb;           /* page background */
-  --card: #ffffff;         /* card/background surfaces */
+  --muted: #6b7280;
+  /* muted text */
+  --bg: #f6f7fb;
+  /* page background */
+  --card: #ffffff;
+  /* card/background surfaces */
 }
 
 .site-header,
