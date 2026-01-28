@@ -33,6 +33,7 @@
       2. Define --brand-dark variable and set a darker color value of #1d4ed8 for hover states
   - Apply a global box-sizing reset using the universal selector (hint use * selector).
 */
+
 * {
   box-sizing: border-box;
 }
